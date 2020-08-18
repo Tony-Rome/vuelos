@@ -1,0 +1,30 @@
+extends ../layout/index
+block slider
+    .slider
+        h1 Rio de janeiro
+        em aventura
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre nosotros
+        .row.mb-5
+            .col-md-6 
+                p Lorem ipsum dolor siente molestias doloribus at architecto cumque necessitatibus! Facilis quia molestias reiciendis aliquam!
+                p Lorem ipsum dolor siente molestias doloribus at architecto cumque necessitatibus! Facilis quia molestias reiciendis aliquam!
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", class="img-fluid")
+
+        h2.text-center.mb-5 Próximos viajes
+        include ../layout/partials/viajes
+      
+    .descuento
+        .container
+            .row
+                .col-md-6
+                    .contenido
+                        h3 5% de descuento
+                        p.titulo  Viaje canada
+                        p.fecha 20/02/2020 - 25/04/2020
+                        p.precio $2.500.900
+    .container
+        h2.text-center.mb-5 Testimoniales
+        include ../layout/partials/viajes
